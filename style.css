@@ -1,0 +1,188 @@
+/* CSS BY NAME */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS REST */
+
+/* ROOT VARIABLES */
+:root {
+    --Teal: #4CA7C0;
+    --Purple: #484FB7;
+    --Lavender: #6B8FE7;
+    --Yellow: #E9BB57; 
+    --Pink: #D9526F;
+    --Dark-gray: #1E1E1E;
+    --White: #ffffff;
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+body {
+    background-color: var(--Purple);
+    font-family: 'Inter';
+    color: var(--Dark-gray);
+    margin: 0;
+}
+
+.our-services {
+    background-color: var(--White);
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em;
+}
+
+H1, H2 {
+    font-family: 'Kavoon';
+    color: var(--White);
+}
+
+/* All other text
+Inter */
+
+H1 {
+    color: var(--White);
+    font-size: 3em;
+    text-align: center;
+}
+
+NAV H2 {
+    font-size: 1.5em;
+    font-family: 'Inter';
+    font-style: italic;
+    color: var(--Dark-gray);
+    background-color: var(--Yellow);
+    position: fixed;
+    top: 0em;
+    right: 0em;
+    margin: 0em;
+    border-radius: 0em 0em 1em 1em;
+    padding: 0.7em;
+}
+
+H2 {
+    font-size: 2em;
+    font-weight: 550;
+    color: var(--White);
+    margin: 0.5em;
+}
+
+H3 {
+    font-size: 1.5em;
+    font-family: 'Inter';
+    color: var(--Yellow);
+    margin: 0.5em;
+}
+
+H4 {
+    font-size: 1.15em;
+    font-family: 'Inter';
+    color: var(--Purple);
+    font-weight: bold;
+    margin: 0; 
+}
+
+.heading_txt {
+    color: var(--White);
+    font-family: 'Inter';
+    font-style: italic;
+    text-align: center;
+}
+
+img {
+    padding: 1em 1em 1.5em 1em;
+}
+
+.why-choose-us {
+    background-color: var(--Pink);
+    border-radius: 0em;
+    padding: 1em;
+    margin: 0em;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.feature {
+    width: 35%;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: bold;
+    border-radius: 1em;
+    padding: 1.5em;
+}
+
+.personalized-approach {
+    background-color: var(--Teal);
+}
+
+.proven-results {
+    background-color: var(--Lavender);
+}
+                
+.supportive-environment {
+    background-color: var(--Yellow);
+}
+                
+.flexible-options {
+    background-color: var(--White);
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: var(--Yellow);
+    padding: 1em;
+    border: 2px solid var(--Yellow);
+}
+
+table td {
+    background-color: var(--White);
+    padding: 1em;
+    border: 2px solid var(--Yellow);
+}
+
+.first-step {
+    background-color: var(--Pink);
+    color: var(--White);
+    padding: 0.5em;
+    margin: 0.5em 0 0 0;
+}
+
+.first-step button {
+    background-color: var(--White);
+    color: var(--Dark-gray);
+    font-family: 'Inter';
+    font-weight: bold;
+    font-size: 1.15em;
+    border: 0px;
+    border-radius: 1em;
+    box-shadow: 4px 3px 2px 2px var(--Dark-gray);
+    display: block;
+    margin: 0 auto;
+    padding: 1.15em 6em 1.15em 6em;
+}
+
+footer {
+    font-size: 0.8em;
+    font-family: 'Inter';
+    background-color: var(--Lavender);
+    text-align: center;
+    top: 0em;
+    right: 0em;
+    margin: 0 0 3em 0;
+    border-radius: 0em 0em 2.5em 2.5em;
+    padding: 2em;
+}
+
+footer p, a {
+    color: var(--White);
+    display: inline-block;
+    padding: 1em 2em 1em 2em;
+}
