@@ -43,20 +43,41 @@ H1 {
     color: var(--White);
     font-size: 3em;
     text-align: center;
+    margin-top: 1em;
 }
 
-NAV H2 {
-    font-size: 1.5em;
+.menu-container {
+    background-color: var(--Yellow);
+    text-align: center;
+    padding: 0.5em;
+}
+
+.menu-title {
+    font-size: 2em;
     font-family: 'Inter';
     font-style: italic;
+    font-weight: bold;
     color: var(--Dark-gray);
-    background-color: var(--Yellow);
-    position: fixed;
-    top: 0em;
-    right: 0em;
-    margin: 0em;
-    border-radius: 0em 0em 1em 1em;
-    padding: 0.7em;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0.75em 0;
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--Purple);
+    background-color: var(--White);
+    width: 80%;
+    margin: auto;
 }
 
 H2 {
@@ -172,12 +193,10 @@ table td {
 footer {
     font-size: 0.8em;
     font-family: 'Inter';
-    background-color: var(--Lavender);
+    background-color: var(--Purple);
     text-align: center;
     top: 0em;
     right: 0em;
-    margin: 0 0 3em 0;
-    border-radius: 0em 0em 2.5em 2.5em;
     padding: 2em;
 }
 
