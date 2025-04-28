@@ -4,105 +4,122 @@
 
 /* CSS BY NAME */
 
-.our-services {
+#our-services div {
     background-color: var(--White);
     border-radius: 1em;
     padding: 1em;
     margin: 1em;
 }
 
-.menu-container {
+nav {
     background-color: var(--Yellow);
     text-align: center;
-    padding: 0.5em;
+    padding: 0.5em 0;
 }
 
-.menu-title {
+nav h2 {
     font-size: 2em;
     font-family: 'Inter';
     font-style: italic;
     font-weight: bold;
     color: var(--Dark-gray);
+    margin: 0.3em;
 }
 
-.menu {
+nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-.menu li {
-    margin: 0.75em 0;
+header p {
+    color: var(--White);
+    font-family: 'Inter';
+    font-style: italic;
+    text-align: center;
 }
 
-.menu a {
+header nav a {
     display: block;
     text-decoration: none;
     font-weight: bold;
     color: var(--Purple);
     background-color: var(--White);
-    width: 80%;
-    margin: auto;
+    padding: 1em;
+    margin: 0.5em 1.5em;
 }
 
 .why-choose-us {
     background-color: var(--Pink);
-    border-radius: 0em;
-    padding: 1em;
-    margin: 0em;
+    padding: 0;
+    padding: 0.3em 0;
+    margin: 0;
 }
 
-.features {
+.why-choose-us ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 0;
     gap: 10px;
+    color: var(--Dark-gray);
 }
 
-.feature {
-    width: 35%;
+.why-choose-us li {
     text-align: center;
     font-family: 'Inter';
     font-weight: bold;
     border-radius: 1em;
     padding: 1.5em;
+    list-style: none;
+    width: 35%;
 }
 
-.personalized-approach {
+.why-choose-us a {
+    text-decoration: none;
+    color: var(--Dark-gray);
+}
+
+.why-choose-us ul li:nth-child(1) {
     background-color: var(--Teal);
 }
 
-.proven-results {
+.why-choose-us ul li:nth-child(2) {
     background-color: var(--Lavender);
 }
-                
-.supportive-environment {
+
+.why-choose-us ul li:nth-child(3) {
     background-color: var(--Yellow);
 }
-                
-.flexible-options {
+
+.why-choose-us ul li:nth-child(4) {
     background-color: var(--White);
 }
 
-.first-step {
+#first-step {
     background-color: var(--Pink);
     color: var(--White);
-    padding: 0.5em;
-    margin: 0.5em 0 0 0;
+    padding: 0.1em 0;
 }
 
-.first-step button {
+#first-step p {
+    margin: 1em;
+}
+
+#first-step a {
     background-color: var(--White);
     color: var(--Dark-gray);
     font-family: 'Inter';
     font-weight: bold;
     font-size: 1.15em;
     border: 0px;
-    border-radius: 1em;
+    border-radius: 0.9em;
     box-shadow: 4px 3px 2px 2px var(--Dark-gray);
     display: block;
-    margin: 0 auto;
-    padding: 1.15em 6em 1.15em 6em;
+    margin: 0.5em 2em;
+    padding: 1.3em;
+    text-align: center;
+    text-decoration: none;
 }
 
 footer {
@@ -115,7 +132,8 @@ footer {
     padding: 2em;
 }
 
-footer p, a {
+footer p,
+footer a {
     color: var(--White);
     display: inline-block;
     padding: 1em 2em 1em 2em;
@@ -158,50 +176,48 @@ table td {
 
 /* GLOBAL STYLES (mobile first/small) */
 
-body {
-    background-color: var(--Purple);
-    font-family: 'Inter';
-    color: var(--Dark-gray);
-    margin: 0;
+html {
+    background-color: var(--Lavender);
 }
 
-H1, H2 {
+body {
+    font-family: 'Inter';
+    color: var(--Dark-gray);
+    margin: 0 auto;
+    max-width: 450px;
+    background-color: var(--Purple);
+}
+
+h1, h2 {
     font-family: 'Kavoon';
     color: var(--White);
 }
 
-H1 {
+h1 {
     color: var(--White);
     font-size: 3em;
     text-align: center;
-    margin-top: 1em;
+    padding-top: 1em;
 }
 
-H2 {
+h2 {
     font-size: 2em;
-    font-weight: 550;
+    font-weight: lighter;
     color: var(--White);
-    margin: 0.5em;
+    margin: 0.5em; 
 }
 
-H3 {
+h3 {
     font-size: 1.5em;
     font-family: 'Inter';
     color: var(--Yellow);
-    margin: 0.5em;
+    margin: 0.5em; 
 }
 
-H4 {
+h4 {
     font-size: 1.15em;
     font-family: 'Inter';
     color: var(--Purple);
     font-weight: bold;
-    margin: 0; 
-}
-
-.heading_txt {
-    color: var(--White);
-    font-family: 'Inter';
-    font-style: italic;
-    text-align: center;
+    margin: 0.5em; 
 }
